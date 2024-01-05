@@ -13,7 +13,7 @@ body {
 /* Global Variable Ends  here  */
 /* Navigation Style starts hear */
 header {
-  background-color: #FFF8F3;
+  background-color: #fff8f3;
   margin-top: 50px;
   max-width: 1600px;
   max-height: 837px;
@@ -59,7 +59,7 @@ nav li a {
 
 /* Main section style stats here */
 .cv-btn {
-  padding:20px 30px;
+  padding: 20px 30px;
   background-color: #fd6e0a;
   color: white;
   border-radius: 5px;
@@ -82,13 +82,13 @@ nav li a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background:url(../images/developer.png) , url(../images/header_bg.png);
-  background-repeat:no-repeat , no-repeat;
-  background-position:bottom left , bottom right;
-  background-size:contain, 42%;
-  background-position-x: 100px ,right;
-  background-position-y: -5px,bottom;
-  background-color: #FFF8F3;
+  background: url(../images/developer.png), url(../images/header_bg.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom left, bottom right;
+  background-size: contain, 42%;
+  background-position-x: 100px, right;
+  background-position-y: -5px, bottom;
+  background-color: #fff8f3;
 }
 .hero-container {
   margin-left: 230px;
@@ -116,3 +116,35 @@ nav li a {
   margin-right: 40px;
 }
 /* Main section style ends here */
+/* main section 2 stats here */
+.about {
+  margin: 130px 230px;
+}
+.about-title {
+  margin: 130px 485px 30px 485px;
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.about-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 0 150px;
+}
+.personal-description{
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+  padding: 30px 150px;
+}
+.personal-details-title{
+  color:#757575;
+text-align: center;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+}
