@@ -207,7 +207,111 @@ nav li a {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
-  margin:0 30px 30px 30px;
+  margin: 0 30px 30px 30px;
 }
 
 /* card style */
+
+.education-experience {
+  margin-top: 110px;
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+}
+.education-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+.education-degree {
+  margin-top: 30px;
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+}
+.education-place {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.education-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  width: 510px;
+}
+.download-cv {
+  margin: 30px auto;
+  display: block;
+  justify-content: center;
+}
+
+/* footer style here */
+footer {
+  display: flex;
+  background-color: #fff8f3;
+  margin-top: 110px;
+}
+.contact {
+  margin-left: 230px;
+  padding: 130px;
+}
+.contact-title {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+}
+.contact-description {
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 20px;
+  max-width: 560px;
+}
+.contact > img {
+  margin-top: 30px;
+  margin-right: 20px;
+}
+.message-title {
+  margin-top: 130px;
+  margin-bottom: 25px;
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+}
+.message > input[type='text'],
+input[type='email'],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  width: 460px;
+  height: 60px;
+  background-color: white;
+}
+.message > input[type='text'],
+input[type='email'] {
+  width: 460px;
+  height: 60px;
+  border-radius: 5px;
+  border: none;
+}
+.message > textarea{
+  width: 460px;
+  height: 180px;
+}
+.message > input::placeholder{
+  padding-left: 30px;
+}
+.submit-btn{
+  padding: 20px 40px;
+  margin-bottom: 150px;
+  border-radius: 5px;
+  background-color: #fd6e0a;
+  color: white;
+text-align: center;
+font-size: 20px;
+font-weight: 700;
+}
