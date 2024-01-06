@@ -27,12 +27,14 @@ nav {
   font-size: 45px;
   font-weight: 800;
   margin-left: 226px;
+  margin-top: 50px;
 }
 nav ul {
   list-style: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 50px;
 }
 nav li {
   margin-right: 27px;
